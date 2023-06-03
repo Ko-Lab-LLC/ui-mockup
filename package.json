@@ -1,0 +1,16 @@
+{
+  "name": "ui-mockup",
+  "version": "0.0.1",
+  "description": "UI mockup",
+  "private": true,
+  "scripts": {
+    "dev": "node bundle.js dev",
+    "build": "node bundle.js build"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "ejs": "^3.1.9",
+    "esbuild": "^0.17.19",
+    "fs-extra": "^11.1.1"
+  }
+}
