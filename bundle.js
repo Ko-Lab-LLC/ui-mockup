@@ -5,7 +5,7 @@ const chokidar = require('chokidar')
 const ejs = require('ejs')
 const esbuild = require('esbuild')
 
-const DIST_DIR = 'dist'
+const DIST_DIR = 'docs'
 const PUBLIC_DIR = 'src/public'
 const PAGES_DIR = 'src/pages'
 const PARTIALS_NAME = '_partials'
